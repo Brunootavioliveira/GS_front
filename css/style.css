@@ -143,6 +143,12 @@ footer {
     width: 100%;
 }
 
+#btnlogin{
+    border-style: none;
+    width: 110px;
+    height: 50px;
+}
+
 @media (min-width: 768px) {
     #hero h1 {
         font-size: 5em;
