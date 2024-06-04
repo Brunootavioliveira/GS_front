@@ -1,27 +1,57 @@
-body {
-    font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-
-.cartao-login{
+body {
     display: flex;
-    flex-direction: column;
-    background-color: darkcyan;
-    width: 400px;
-    height: 200px;
-    align-items: center;
     justify-content: center;
-}
-
-.cont-login{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 15%;
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #71b7e6);
+    padding: 20px; /* Adiciona margem para o contêiner de login */
 }
-
-#user, #senha{
-    width: 200px;
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.login-container input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.login-container button {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background: #5a67d8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background: #434190;
+}
+@media (max-width: 400px) {
+    .login-container {
+        padding: 20px;
+    }
+    .login-container input, .login-container button {
+        padding: 12px;
+    }
 }

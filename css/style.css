@@ -144,36 +144,95 @@ footer {
     height: 80px;
 }
 
-#btnlogin{
+#btnlogin {
     border-style: none;
     width: 110px;
     height: 50px;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     width: 500px;
     margin-top: 50px;
 }
 
-.tamanhoimg{
+.tamanhoimg {
     width: 400px;
     height: 400px;
 }
 
-.post{
+.post {
     display: flex;
     justify-content: center;
 }
 
-.infopost{
+.infopost {
     display: flex;
     flex-direction: column;
 }
 
-#listaPosts{
+#listaPosts {
     list-style: none;
+}
+
+.comente-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.comente-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.comente-container textarea, .comente-container input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+.comente-container textarea::placeholder, .comente-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.comente-container button {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background: #1e3c72;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.comente-container button:hover {
+    background: #162b57;
+}
+
+@media (max-width: 500px) {
+    .comente-container {
+        padding: 20px;
+    }
+
+    .comente-container textarea, .comment-container input, .comment-container button {
+        padding: 12px;
+    }
 }
 
 @media (min-width: 768px) {
