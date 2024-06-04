@@ -141,6 +141,39 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    height: 80px;
+}
+
+#btnlogin{
+    border-style: none;
+    width: 110px;
+    height: 50px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.tamanhoimg{
+    width: 400px;
+    height: 400px;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+}
+
+.infopost{
+    display: flex;
+    flex-direction: column;
+}
+
+#listaPosts{
+    list-style: none;
 }
 
 @media (min-width: 768px) {
