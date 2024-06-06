@@ -26,6 +26,8 @@ const filtroCategoria = document.querySelector('#filtroCategoria')
 
 const posts = []
 
+var filtrado = posts.filter(function(filtro) { return filtro.categoria === filtroCategoria.value})
+
 btnCriar.addEventListener('click', function (infosDoEvento){
     infosDoEvento.preventDefault()
 

@@ -26,13 +26,11 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <video autoplay muted loop playsinline>
-            <source src="video/MediaQ.mp4" type="video/mp4">
-        </video>
-        <div class="hero-text">
-            <h1>Bem-vindo ao OceanWatch</h1>
-            <p>Monitoramento e visualização de dados sobre a saúde dos oceanos.</p>
+    <section id="hero" style="background-image: url('img/img.ocean2.png');">
+            <div class="hero-text">
+                <h1>Bem-vindo ao OceanWatch</h1>
+                <p>Monitoramento e visualização de dados sobre a saúde dos oceanos.</p>
+            </div>
         </div>
     </section>
 
@@ -95,10 +93,21 @@
             <div class="comente-container">
                 <h1>Deixe seu Comentário</h1>
                 <form>
-                    <textarea id="inputTexto" placeholder="Digite seu post"></textarea>
-                    <input name="img1" id="img1" type="text" placeholder="Insira uma imagem (URL)">
-                    <input name="img2" id="img2" type="text" placeholder="Insira uma imagem (URL)">
-                    <button id="btnCriar">Enviar</button>
+                    <textarea id="inputTexto" placeholder="Digite seu post" required></textarea>
+                    <input name="img1" id="img1" type="text" placeholder="Insira uma imagem (URL)" required>
+                    <button id="btnCriar" type="submit">Enviar</button>
+                    <div class="rating">
+                        <input value="5" name="rating" id="star5" type="radio">
+                        <label for="star5"></label>
+                        <input value="4" name="rating" id="star4" type="radio">
+                        <label for="star4"></label>
+                        <input value="3" name="rating" id="star3" type="radio">
+                        <label for="star3"></label>
+                        <input value="2" name="rating" id="star2" type="radio">
+                        <label for="star2"></label>
+                        <input value="1" name="rating" id="star1" type="radio">
+                        <label for="star1"></label>
+                      </div>                      
                 </form>
             </div>
         </div>
