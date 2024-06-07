@@ -38,7 +38,7 @@ Populações costeiras, pescadores, turistas e empresas marítimas serão os pri
 
 # Benefícios
 
-##Benefícios Oferecidos pela Solução
+## Benefícios Oferecidos pela Solução
 Melhor entendimento sobre a saúde dos oceanos, permitindo ações mais eficazes para a preservação dos ecossistemas marinhos. Dados precisos e atualizados ajudarão na tomada de decisões informadas, promovendo práticas sustentáveis e protegendo a biodiversidade marinha.
 
 # Impacto no Dia a Dia
