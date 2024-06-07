@@ -48,7 +48,9 @@ Usuários receberão alertas sobre mudanças nas condições oceânicas, possibi
 
 # Autores
 Bruno Otavio Silva De Oliveira<br>
+RM:556196<br>
 https://www.linkedin.com/in/bruno-otavio-oliveira-498b80282/
 
 Luiz fernando de Aragão Souza<br>
+RM:555561<br>
 https://www.linkedin.com/in/luizfernando-souza/
